@@ -1,0 +1,144 @@
+
+    .xn-text{
+        color: #33414e;
+    }
+    .css1 {
+        width: : 30px;
+        padding: 1px;
+        text-align: center;
+        display: relative;
+    }
+
+    .css2 {
+        padding: 5%;
+        margin:auto;
+        font-size: 10px;
+        text-align: center;
+        color: #656d78;
+    }
+
+    .css3 {
+        padding:1%;
+        margin: auto;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .panel-body.panel-body-table .table tr > td {
+        padding: 1%;
+    }
+
+    .css_thead {
+        font-size: 10px;
+    }
+
+
+    .example {background: red;}
+
+
+    /*Navbar*/
+    .navbar2 {
+      overflow: hidden;
+      background-color: #fff;
+      width: 100%;
+      z-index: 999;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #fff;
+      position: fixed;
+      bottom: -1%;
+      margin-bottom: 1%;
+      width: 100%;
+      z-index: 999;
+    }
+
+    .navbar a, .navbar2 a {
+      float: left;
+      display: block;
+      color: #f78242;
+      text-align: center;
+      padding: 7px 16px;
+      text-decoration: none;
+      font-size: 12px;
+      width: 25%;
+    }
+
+    .navbar a:hover {
+      background: #f78242;
+      color: white;
+    }
+
+    .navbar a.active {
+      background-color: #f78242;
+      color: white;
+    }
+
+    .main {
+      padding: 16px;
+      margin-bottom: 30px;
+    }
+    /*End Navbar*/
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      .example {background: red;}
+
+        .weekday {
+            display: none;
+        }
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      .example {background: green;}
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      .example {background: blue;}
+    } 
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        .example {background: orange;}
+        .css1 {
+          width: : 50%;
+          padding: 10%;
+        }
+        
+        .css2 {
+            padding: 10%;
+            margin:auto;
+            font-size: 18px;
+            text-align: center;
+            color: #656d78;
+        }
+
+
+        .panel-body.panel-body-table .table tr > td {
+            padding: 1%;
+        }
+
+
+        .css_thead {
+            font-size: 18px;
+        }
+
+        .navbar {
+          overflow: hidden;
+          background-color: #fff;
+          position: fixed;
+          bottom: -1%;
+          margin-bottom: 0%;
+          width: 100%;
+          z-index: 999;
+        }
+
+    } 
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      .example {background: pink;}
+    }
